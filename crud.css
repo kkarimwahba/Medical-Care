@@ -1,0 +1,72 @@
+body{
+			background-image: url('rr.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+		}
+    .row{
+
+      padding-top: 50px;
+      padding-bottom: 40px;
+      padding: 50px;
+      margin-top: 40px;
+
+    }
+		form{
+			width: 50%;
+      margin: auto;
+      text-align: center;
+      padding-top: 150px;
+      background-color:   white;
+      padding: 50px;
+      border: none;
+      font-size: 16px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 0px;
+      flex-direction: row; 
+      justify-content: center;
+		}
+    label
+    {
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    font-weight: bold;
+    font-size: 18px;
+    }
+    input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    border-radius:15px ;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    }
+    button{
+    border-radius:25px;
+    width: 50%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    }
+    button:hover
+    {
+      background-color: darkblue;
+      opacity: 0.8;
+      text-transform: 2px;
+      letter-spacing: 1px;
+      transition: 0.5s;
+      font-size: 16px;
+
+    }
+    h1{
+      font-weight: bold;
+      color:black;
+    }
